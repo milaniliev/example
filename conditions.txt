@@ -1,0 +1,7 @@
+heading = 'west' and depth < 15 -> dive
+heading = 'east' and depth < 15 -> straight
+
+depth = 15 -> straight
+
+heading = 'west' and depth > 15 -> surface
+heading = 'east' and depth > 15 -> dive
